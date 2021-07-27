@@ -1,0 +1,28 @@
+{
+  "name": "reactportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react-dom": "^17.0.2",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexJG501/ReactPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexJG501/ReactPortfolio/issues"
+  },
+  "homepage": "https://github.com/AlexJG501/ReactPortfolio#readme"
+}
