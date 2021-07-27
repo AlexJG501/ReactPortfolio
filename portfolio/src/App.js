@@ -1,5 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import About from './components/About';
+import ContactForm from './components/Contact';
+import Gallery from './components/Gallery';
+import Nav from './components/Nav';
 
 function App() {
   const [categories] = useState([
@@ -35,14 +38,11 @@ function App() {
 
       <footer>
         <div className="icons">
-          <a href="https://github.com/AlexJG501" targer="_blank" rel="noreferrer" title="GitHub">
+          <a href="https://github.com/AlexJG501" target="_blank" rel="noreferrer" title="GitHub">
             GitHub
           </a>
-          <a href="#" targer="_blank" rel="noreferrer" title="LinkedIn">
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer" title="LinkedIn">
             LinkedIn
-          </a>
-          <a href="https://stackoverflow.com/users/16479419/ronan-codes" targer="_blank" rel="noreferrer" title="GitHub">
-            Stack
           </a>
         </div>
       </footer>
