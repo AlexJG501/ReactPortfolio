@@ -7,21 +7,21 @@ const PhotoList = ({ category }) => {
 
   const [photos] = useState([
     {
-      name: 'Budget Tracker',
+      name: 'Guess-tures',
       category: 'screenshots',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Helping those with difficulty recognizing emotions on faces',
       liveUrl: '',
       github: ''
     },
     {
-      name: 'Note Taker',
+      name: 'Run Buddy',
       category: 'screenshots',
       description: 'Note Taker is your standard note-taking application that allows to you create, save, and delete notes. To create a note, add a Title and Description. For example: you can create a Task titled Homework, and include a description for the steps of your task at hand. This application utilizes Express.js to retrieve, create, and delete data from a JSON.file. Note Taker is deployed through Heroku.',
       liveUrl: '',
       github: ''
     },
     {
-      name: 'Run Buddy',
+      name: 'RPS-Chat',
       category: 'screenshots',
       description: 'Run Buddy is a mock website for a fitness service company. Plain HTML and CSS is utilized to create the layout and various form elements.',
       liveUrl: '',

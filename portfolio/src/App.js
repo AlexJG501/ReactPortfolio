@@ -3,11 +3,13 @@ import About from './components/About';
 import ContactForm from './components/Contact';
 import Gallery from './components/Gallery';
 import Nav from './components/Nav';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 function App() {
   const [categories] = useState([
     {
-      name: 'portfolio'
+      name: 'screenshot'
     }
   ]);
 
@@ -28,8 +30,16 @@ function App() {
       <main>
         {!contactSelected ? (
           <>
-            <About></About>
-            <Gallery currentCategory={currentCategory}></Gallery>
+            <Container>
+              <Row>
+                <About></About>
+              </Row>
+            </Container>
+            <Container className="my-5">
+              <Row>
+                <Gallery currentCategory={currentCategory}></Gallery>
+              </Row>
+            </Container>
           </>
         ) : (
           <ContactForm></ContactForm>

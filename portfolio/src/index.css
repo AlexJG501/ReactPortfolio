@@ -75,7 +75,7 @@ h6 {
 
 p {
   font-size: 1.1rem;
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 a {
@@ -126,16 +126,14 @@ img {
 }
 
 .face_img {
-  float: left;
-  border-radius: 0;
   border: solid 1px #555;
-  background-color: #eed;
   box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
   -moz-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
   -webkit-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
   -o-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
   border-radius:25px;
   margin-right: 50px;
+  align-items: center;
 }
 
 span[role='img'] {
@@ -143,7 +141,7 @@ span[role='img'] {
 }
 
 form {
-  width: 40%;
+  width: 60%;
 }
 
 input {
@@ -170,6 +168,7 @@ nav a:hover {
 
 nav li {
   cursor: pointer;
+  text-align: right;
 }
 
 textarea {
@@ -179,8 +178,13 @@ textarea {
   padding: 5px;
 }
 
+.nav-text {
+  float: right;
+}
+
 .am_txt {
   text-align: center;
+  display: inline;
 }
 
 .container {
