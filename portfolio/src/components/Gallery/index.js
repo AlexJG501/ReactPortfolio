@@ -16,13 +16,13 @@ function Gallery() {
         </Row>
         <Row className="flex-row space-between pb-1">
           <Col>
-            <Image src={Img1} alt="" fluid/>
+            <a href="https://nmisustin.github.io/guesstures/"><Image src={Img1} alt="Guess-tures: A website with flashcards to help those with difficulty recognizing facial expressions" fluid/></a>
           </Col>
           <Col>
-            <Image src={Img2} alt="" />
+          <a href="https://alexjg501.github.io/run-buddy/"><Image src={Img2} alt="Run Buddy: A mock website to pair runners with personal trainers" /></a>
           </Col>
           <Col>
-            <Image src={Img3} alt="" />
+          <a href="https://fast-woodland-75585.herokuapp.com/"><Image src={Img3} alt="RPS-Chat: A chat site that allows communication in a chatroom with a challenge option for rock paper scissors" /></a>
           </Col>
         </Row>
       </Container>
