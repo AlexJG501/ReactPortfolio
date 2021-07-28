@@ -252,6 +252,10 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
+.pb-1 {
+  padding-bottom: 20px;
+}
+
 .card {
   width: 25%;
   text-align: center;
