@@ -6,6 +6,7 @@ import Image from 'react-bootstrap/Image';
 import Img1 from '../../assets/images/screenshots/0.jpg';
 import Img2 from '../../assets/images/screenshots/1.jpg';
 import Img3 from '../../assets/images/screenshots/2.jpg';
+import Img4 from '../../assets/images/screenshots/3.jpg';
 
 function Gallery() {
   return (
@@ -23,6 +24,10 @@ function Gallery() {
           </Col>
           <Col>
           <a href="https://fast-woodland-75585.herokuapp.com/"><Image src={Img3} alt="RPS-Chat: A chat site that allows communication in a chatroom with a challenge option for rock paper scissors" /></a>
+          </Col>
+          <Col>
+          {/* Need to replace with Deployed link */}
+          <a href="https://github.com/Ronan-Codes/Project-3"><Image src={Img4} alt="Pic'd Up: A fullstack MERN application that allows photographers to show off their portfolios" /></a>
           </Col>
         </Row>
       </Container>
