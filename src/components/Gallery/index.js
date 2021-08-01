@@ -27,7 +27,7 @@ function Gallery() {
           </Col>
           <Col>
           {/* Need to replace with Deployed link */}
-          <a href="https://github.com/Ronan-Codes/Project-3"><Image src={Img4} alt="Pic'd Up: A fullstack MERN application that allows photographers to show off their portfolios" /></a>
+          <a href="https://evening-refuge-82542.herokuapp.com/"><Image src={Img4} alt="Pic'd Up: A fullstack MERN application that allows photographers to show off their portfolios" /></a>
           </Col>
         </Row>
       </Container>
